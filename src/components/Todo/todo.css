@@ -1,0 +1,32 @@
+.todo {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.input {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.text {
+  max-width: 80%;
+}
+
+.todo-btn-list {
+  flex: 0 0 7rem;
+}
+
+.todo-btn {
+  border-radius: 50%;
+}
